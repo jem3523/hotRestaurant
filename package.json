@@ -1,0 +1,24 @@
+{
+  "name": "hotrestaurant",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jem3523/hotRestaurant.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jem3523/hotRestaurant/issues"
+  },
+  "homepage": "https://github.com/jem3523/hotRestaurant#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "inquirer": "^7.0.3"
+  }
+}
