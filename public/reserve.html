@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Reservation Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet"  href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+			<h1 class="text-center  text-monospace font-weight-bolder"><span class="fas fa-fire-alt"></span> The Boys Restaurant</h1>
+			<hr>
+			<h4 class="text-center text-monospace font-weight-bolder">Make your reversation</h4>
+			<br>
+
+			<div class="text-center">
+                <a href="tables.html"><button type="button" class="btn btn-lg btn-primary"><span class="fas fa-table"></span> View Tables</button></a>
+                <a href="home.html"><button type="button" class="btn btn-lg btn-light"><span class="fas fa-home"></span></button></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Table Reservation</h3>
+                    </div>
+                    <form>
+                        <div class="form-group">
+                          <label class="name font-weight-bold">Name</label>
+                          <input type="text" class="form-control" id="reserve_name">
+                        </div>
+                        <div class="form-group">
+                          <label class="phoneNumber font-weight-bold">Phone Number</label>
+                          <input type="text" class="form-control" id="reserve_phoneNumber">
+                        </div>
+                        <div class="form-group">
+                            <label class="email1 font-weight-bold">Email address</label>
+                            <input type="text" class="form-control" id="reserve_email">
+                        </div>
+                          <div class="form-group">
+                            <label class="UniqueId font-weight-bold">Unique ID</label>
+                            <input type="text" class="form-control" id="resreve_uniqueId">
+                        </div> 
+                         <button type="button" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+             </div>
+         </div>
+    </div>
+    <br>
+    <footer class="footer">
+        <div class="container">
+              <p><a href="">Clear Table</a> | <a href="">API Table Link</a> | <a href="">API Wait List</a></p>
+        </div>
+     </footer>
+    
+</body>
+</html>
